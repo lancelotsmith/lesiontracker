@@ -1,0 +1,11 @@
+<template name="lesionTableTimepointCell">
+    {{#if hasDataAtThisTimepoint}}
+        <div class="lesionTableTimepointCell" tabindex="1">
+            {{displayData}}
+        </div>
+    {{else}}
+        <div class="lesionTableTimepointCell empty">
+            ...
+        </div>
+    {{/if}}
+</template>
