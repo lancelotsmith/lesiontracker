@@ -1,7 +1,9 @@
+
 Package.describe({
-    name: 'lesiontracker',
-    summary: 'OHIF Lesion Tracker Tools',
-    version: '0.0.1'
+  summary: "OHIF Lesion Tracker Tools.",
+  version: "0.0.1",
+  git: "https://github.com/lancelotsmith/lesiontracker.git",
+  name: "lancelotsmith:lesiontracker"
 });
 
 Package.onUse(function(api) {
